@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10 CSS Mini Challenges</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    /* 1️⃣ Font Family */
+    .arial-text {
+      font-family: Arial, sans-serif;
+    }
+    .georgia-text {
+      font-family: Georgia, serif;
+    }
+
+    /* 2️⃣ Text Color */
+    .dark-heading {
+      color: #555;
+    }
+
+    /* 3️⃣ Background Color */
+    .colored-box {
+      background-color: #f4f4f4;
+      padding: 15px;
+    }
+
+    /* 4️⃣ Font Size */
+    .heading-lg {
+      font-size: 2em;
+    }
+    .heading-md {
+      font-size: 1.5em;
+    }
+    .heading-sm {
+      font-size: 1em;
+    }
+
+    /* 5️⃣ Line Height */
+    .spaced-lines {
+      line-height: 1.6;
+    }
+
+    /* 6️⃣ Margin */
+    .box {
+      background-color: #ddd;
+      margin: 10px 0;
+      padding: 10px;
+    }
+
+    /* 7️⃣ Padding */
+    .padded-button {
+      padding: 10px 20px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* 8️⃣ Text Decoration */
+    .link-none {
+      text-decoration: none;
+      color: blue;
+    }
+
+    .link-underline {
+      text-decoration: underline;
+    }
+
+    .link-overline {
+      text-decoration: overline;
+    }
+
+    /* 9️⃣ Border Radius */
+    .rounded-box {
+      background-color: #cce5ff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .circle {
+      width: 100px;
+      height: 100px;
+      background-color: #ffcccb;
+      border-radius: 50%;
+      margin: 10px auto;
+    }
+
+    /* 🔟 Max Width */
+    .responsive-img {
+      max-width: 100%;
+      border: 2px solid #444;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1️⃣ Font Family -->
+  <h2>1️⃣ Font Family</h2>
+  <p class="arial-text">This paragraph uses Arial.</p>
+  <p class="georgia-text">This paragraph uses Georgia.</p>
+
+  <!-- 2️⃣ Text Color -->
+  <h2>2️⃣ Text Color</h2>
+  <h1 class="dark-heading">This heading is dark gray</h1>
+
+  <!-- 3️⃣ Background Color -->
+  <h2>3️⃣ Background Color</h2>
+  <div class="colored-box">This is a box with background color and padding.</div>
+
+  <!-- 4️⃣ Font Size -->
+  <h2>4️⃣ Font Size</h2>
+  <h1 class="heading-lg">Large Heading</h1>
+  <h2 class="heading-md">Medium Heading</h2>
+  <p class="heading-sm">Small text paragraph</p>
+
+  <!-- 5️⃣ Line Height -->
+  <h2>5️⃣ Line Height</h2>
+  <p class="spaced-lines">
+    This paragraph has increased line height. <br>
+    It makes the lines more readable and spaced out.
+  </p>
+
+  <!-- 6️⃣ Margin -->
+  <h2>6️⃣ Margin</h2>
+  <div class="box">Box 1</div>
+  <div class="box">Box 2</div>
+  <div class="box">Box 3</div>
+
+  <!-- 7️⃣ Padding --> 
+  <h2>7️⃣ Padding</h2>
+  <button class="padded-button">Click Me</button>
+
+  <!-- 8️⃣ Text Decoration -->
+  <h2>8️⃣ Text Decoration</h2>
+  <a href="#" class="link-underline">Underlined Link</a><br>
+  <a href="#" class="link-none">No Underline</a><br>
+  <a href="#" class="link-overline">Overlined Link</a>
+
+  <!-- 9️⃣ Border Radius -->
+  <h2>9️⃣ Border Radius</h2>
+  <div class="rounded-box">This box has rounded corners.</div>
+  <div class="circle"></div>
+
+  <!-- 🔟 Max Width -->
+  <h2>🔟 Max Width</h2>
+  <div style="width: 80%; max-width: 400px;">
+    <img src="https://via.placeholder.com/600x300" alt="Sample" class="responsive-img">
+  </div>
+
+</body>
+</html>
