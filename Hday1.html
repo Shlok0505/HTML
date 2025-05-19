@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+
+        }
+
+        .main-container {
+            display: flex;
+            flex-direction: row;
+            gap: 480px;
+        }
+
+        .sub-container {
+            margin-top: 200px;
+            color: white;
+        }
+    </style>
+    <link rel="stylesheet" href="ribbon.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="ribbon">
+        <div class="ribbon-stitches-top"></div>
+        <div class="ribbon-content">
+            <p><b>CSS Ribbon Preview</b></p>
+        </div>
+        <div class="ribbon-stitches-bottom"></div>
+    </div>
+
+    <div class="main-container">
+        <div class="sub-container"><dotlottie-player src="https://lottie.host/54e4ab82-b5aa-4505-8ff6-0da51724800e/38QtcerHC5.lottie"
+            background="transparent" speed="1" style="width: 600px; height: 600px" loop autoplay></dotlottie-player>
+    </div>
+        <div class="sub-container">
+            <!-- From Uiverse.io by alexruix -->
+            <div class="form-box">
+                <form class="form">
+                    <span class="title">Sign up</span>
+                    <span class="subtitle">Create a free account with your email.</span>
+                    <div class="form-container">
+                        <input type="text" class="input" placeholder="Full Name">
+                        <input type="email" class="input" placeholder="Email">
+                        <input type="password" class="input" placeholder="Password">
+                    </div>
+                    <button>Sign up</button>
+                </form>
+                <div class="form-section">
+                    <p>Have an account? <a href="">Log in</a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+    
+</body>
+
+</html>
